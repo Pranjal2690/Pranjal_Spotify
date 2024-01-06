@@ -6,6 +6,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const JwtStrategy = require("passport-jwt").Strategy,
     ExtractJwt = require("passport-jwt").ExtractJwt;
+    
 const passport = require("passport");
 const User = require("./models/User");
 const authRoutes = require("./routes/auth");
